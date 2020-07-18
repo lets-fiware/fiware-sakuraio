@@ -1,6 +1,6 @@
 /*
  * NGSI Adapter for sakura.io (Webhook)
- * https://github.com/lets-fiware/lets-fiware.tutorials
+ * https://github.com/lets-fiware/fiware-sakuraio
  *
  * Copyright (c) 2020 Kazuhito Suda
  * Licensed under the MIT license.
@@ -28,5 +28,7 @@ app.use(endpoint, ngsiadapter);
 
 app.listen(port);
 
-console.log(`NGSI Adapter for sakura.io (Webhook) - ${endpoint}:${port}`);
+console.log('NGSI Adapter for sakura.io (WebSocket)');
+console.log(`Endpoint: ${endpoint}:${port}`);
+console.log(`Orion URL: ${orionUrl}, EntityType: ${entityType}`);
 console.log(`FWIARE-Service: ${config.fiwareService}, FIWARE-ServicePath: ${config.fiwareServicepath}, debug: ${config.debug}`);

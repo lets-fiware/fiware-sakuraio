@@ -1,6 +1,6 @@
 /*
  * NGSI Adapter for sakura.io (Webhook)
- * https://github.com/lets-fiware/lets-fiware.tutorials
+ * https://github.com/lets-fiware/fiware-sakuraio
  *
  * Copyright (c) 2020 Kazuhito Suda
  * Licensed under the MIT license.
