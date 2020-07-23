@@ -20,6 +20,11 @@ You can choose a bridge that suits your requirements.
 | NGSI Adapter for sakura.io (WebSocket) | sakura.io channels                                | WebSocket           | MIT license      | 
 | IoT Agent for sakura.io                | UltraLight based protocol over sakura.io channels | WebSocket           | AGPL-3.0 license |
 
+## IoT Device
+
+- IoT Device for sakura.io channels
+- IoT Device for UltraLight
+
 ## How to connect sakura.io to FIWARE system
 
 - https://www.letsfiware.jp/dev/fiware-sakuraio-ngsi-adapter/ (in Japanese)
