@@ -39,7 +39,7 @@ def main():
             temperature = bme280.get_temperature()
             pressure = bme280.get_pressure()
             humidity = bme280.get_humidity()
-            measures = '{}?t|{:05.2f}|h|{:05.2f}|p|{:05.2f}'.format(key, temperature, humidity, pressure)
+            measures = 'A{}?t|{:05.2f}|h|{:05.2f}|p|{:05.2f}A'.format(key, temperature, humidity, pressure)
             print(measures)
             for i in range(math.ceil(len(measures) / 8)):
                 sakuraio.enqueue_tx(i, measures[i * 8:i * 8 + 8])
