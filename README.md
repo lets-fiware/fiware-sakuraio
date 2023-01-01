@@ -49,5 +49,5 @@ The communication module supports 4G-LTE data communication and it can be attach
 
 ## Copyright and License
 
-Copyright (c) 2020 Kazuhito Suda<br>
+Copyright (c) 2020-2023 Kazuhito Suda<br>
 Licensed under the MIT license.
